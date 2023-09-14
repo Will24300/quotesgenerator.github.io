@@ -1,0 +1,58 @@
+* {
+    font-family: "Permanent marker", cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(184, 68, 68, 0.7));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.quotesContainer {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+.quotesContainer h1 {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 1.6rem;
+}
+.quotesContent {
+    background-color: #fff;
+    margin: 30px auto;
+    height: 220px;
+    border-radius: 20px;
+}
+.quotesContainer #quote {
+    padding: 20px 0px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+.quotesContainer #person {
+    text-transform: uppercase;
+    color: rgb(199, 15, 15);
+    font-size: 1.3rem;
+}
+.quotesContainer button {
+    position: absolute;
+    margin-top: 20px;
+    left: 560px;
+    right: 560px;
+    cursor: pointer;
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.quotesContainer button:active {
+    background-color: rgb(0, 0, 0);
+}
